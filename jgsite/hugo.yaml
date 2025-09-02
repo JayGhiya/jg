@@ -1,0 +1,50 @@
+baseURL: 'https://<project>.pages.dev/'
+languageCode: 'en-us'
+title: 'JAY GHIYA'
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
+    - path: github.com/hugomods/giscus
+
+params:
+  comments: true
+  mainSections: ["blog"]
+  
+  homeInfoParams:
+    Title: "Hi there 👋"
+    Content: >
+      <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+        <img src="/images/profile-photo.jpeg" alt="Jay Ghiya" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <div>Welcome! I'm Jay Ghiya. Software Engineer and Builder. Currently building <a href="https://github.com/unoplat/unoplat-code-confluence" target="_blank">unoplat-code-confluence</a>.</div>
+      </div>
+  
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/JayGhiya/"
+    - name: "linkedin" 
+      url: "https://www.linkedin.com/in/jay-ghiya/"
+    - name: "x"
+      url: "https://x.com/BeLikeBumblebee"
+  
+  giscus:
+    repo: "JayGhiya/jg"
+    repo_id: "R_kgDOPn2G0A"
+    category: "General"
+    category_id: "DIC_kwDOPn2G0M4Cu3eG"
+    mapping: "pathname"
+    input_position: "bottom"
+    theme: "preferred_color_scheme"
+    reactions: true
+
+menu:
+  main:
+    - identifier: "blog"
+      name: "Blog"
+      url: "/blog/"
+      weight: 20
