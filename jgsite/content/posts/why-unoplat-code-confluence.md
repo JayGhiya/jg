@@ -14,9 +14,9 @@ We are building an open source code intelligence layer after seven years in corp
 
 Seven years in corporate engineering gave me discipline and scale. I do my best work when I can own the stack, ship in tight loops, and see impact quickly. To align how I work with what I value, I set out to build open-source developer tooling.
 
-## The Spark: July 2024
+## The Spark: 2024
 
-In July 2024, my former tech lead [Vipin Kumar](https://www.linkedin.com/in/vipinshreyaskumar/) proposed a project: extract insights from codebases by leveraging comments placed above methods and classes—comments written by both humans and code assistants. The goal was simple: ease onboarding for engineers new to a codebase. The problem isn’t new; anyone switching companies, teams, or even services within the same org has felt this friction.
+In end of 2024, my former tech lead [Vipin Kumar](https://www.linkedin.com/in/vipinshreyaskumar/) proposed a project: extract insights from codebases by leveraging comments placed above methods and classes—comments written by both humans and code assistants. The goal was simple: ease onboarding for engineers new to a codebase. The problem isn’t new; anyone switching companies, teams, or even services within the same org has felt this friction.
 
 ### Prototypes and Reality Check
 
@@ -25,7 +25,7 @@ I began with what I knew as a java backend engineer: Java AST for analyzing Java
 ### The Realization
 
 To build precise, efficient context for large codebases, you need strong code grammar foundations. I upskilled by studying existing projects that leveraged code grammars effectively.
-Deterministic and reliable impact across software engineering tasks requires formal grammars/static code analysis. If solved in the right manner as the approach is foundational and scalable so more pain points like dependency graphs , architecture checks etc can be tackled precisely.
+Deterministic and reliable impact across software engineering tasks requires formal grammars/static code analysis. If solved in the right manner more pain points like dependency graphs , architecture checks etc can be tackled precisely as the approach is foundational and scalable.
 
 ### The Decision
 
