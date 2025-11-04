@@ -20,14 +20,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true  # Required for Hugo themes
-          fetch-depth: 0    # Required for .GitInfo and .Lastmod
+          submodules: true # Required for Hugo themes
+          fetch-depth: 0 # Required for .GitInfo and .Lastmod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.152.2'
-          extended: true  # Recommended for future-proofing, matches local env
+          hugo-version: "0.152.2"
+          extended: true # Recommended for future-proofing, matches local env
 
       - name: Build
         working-directory: jgsite
@@ -39,7 +39,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy jgsite/public --project-name=jay-ghiya
+          command: pages deploy jgsite/public --project-name=jg
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Output Deployment URLs
