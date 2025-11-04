@@ -1,2 +1,2 @@
 # jg
-personal website and blogs
+personal blogs
