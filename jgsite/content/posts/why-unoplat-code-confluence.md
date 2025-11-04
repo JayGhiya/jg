@@ -59,7 +59,7 @@ So also as part of [context engineering principles](https://www.llamaindex.ai/bl
 
 ### What's Next
 I'm planning a series of posts:
-- Lessons learned from 8 months of full time building.
+- Lessons learned from approximately 9 months of full time building.
 - Current Progress
 - The road ahead: Roadmap
 
