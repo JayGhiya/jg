@@ -14,7 +14,7 @@ module:
 
 params:
   comments: true
-  mainSections: ["blog"]
+  mainSections: ["posts"]
   
   homeInfoParams:
     Title: "Hi there 👋"
@@ -46,5 +46,5 @@ menu:
   main:
     - identifier: "blog"
       name: "Blog"
-      url: "/blog/"
+      url: "/posts/"
       weight: 20
