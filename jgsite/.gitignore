@@ -1,0 +1,52 @@
+# Hugo build output directories
+public/
+public_prod/
+
+# Hugo module cache
+_vendor/
+
+# Hugo generated resources
+resources/_gen/
+resources/.resources/
+
+# Hugo lock file (commit this if you want reproducible builds)
+# go.sum
+
+# Temporary files
+.hugo_build.lock
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Node modules (if using npm/yarn for asset processing)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Asset processing temporary files
+assets/jsconfig.json
+.sass-cache/
+*.css.map
+*.js.map
+
+# Playwright MCP local files
+.playwright-mcp/
+
+# Local documentation builds
+docs/

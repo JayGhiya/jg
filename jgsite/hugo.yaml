@@ -1,6 +1,20 @@
-baseURL: 'https://jay-ghiya.pages.dev/'
-languageCode: 'en-us'
-title: 'JAY GHIYA'
+baseURL: "https://jay-ghiya.pages.dev/"
+languageCode: "en-us"
+title: "Jay Ghiya - Software Engineer & Builder"
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
 
 markup:
   goldmark:
@@ -9,29 +23,209 @@ markup:
 
 module:
   imports:
-    - path: github.com/adityatelange/hugo-PaperMod
+    - path: github.com/gurusabarish/hugo-profile
     - path: github.com/hugomods/giscus
 
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+
 params:
+  title: "Jay Ghiya"
+  description: "Software Engineer and Builder. Building open-source developer tools for better code intelligence."
+  favicon: "/images/profile-photo.jpeg"
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
   comments: true
-  mainSections: ["posts"]
-  
-  homeInfoParams:
-    Title: "Hi there 👋"
-    Content: >
-      <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
-        <img src="/images/profile-photo.jpeg" alt="Jay Ghiya" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-        <div>Welcome! I'm Jay Ghiya. Software Engineer and Builder. Currently building <a href="https://github.com/unoplat/unoplat-code-confluence" target="_blank">unoplat-code-confluence</a>.</div>
-      </div>
-  
-  socialIcons:
-    - name: "github"
-      url: "https://github.com/JayGhiya/"
-    - name: "linkedin" 
-      url: "https://www.linkedin.com/in/jay-ghiya/"
-    - name: "x"
-      url: "https://x.com/BeLikeBumblebee"
-  
+
+  theme:
+    disableThemeToggle: false
+    defaultTheme: "auto"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "Jay Ghiya"
+    disableSearch: false
+    searchPlaceholder: "Search..."
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: true
+      disableEducation: true
+      disableProjects: false
+      disableAchievements: true
+      disableContact: false
+
+  hero:
+    enable: true
+    intro: "Hi, I'm"
+    title: "Jay Ghiya"
+    subtitle: "Builder. Engineer"
+    content: |
+      Currently building
+      <a href="https://github.com/unoplat/unoplat-code-confluence" target="_blank">unoplat-code-confluence</a>
+      — an open source code intelligence platform for better AI workflows.
+    image: /images/profile-photo.jpeg
+    roundImage: true
+    bottomImage:
+      enable: true
+    button:
+      enable: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/JayGhiya/
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/jay-ghiya/
+        - icon: fab fa-x-twitter
+          url: https://x.com/BeLikeBumblebee
+
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/profile-photo.jpeg"
+    content: |
+      I'm a full-stack engineer and builder.
+
+      As the founder and maintainer of <a href="https://github.com/unoplat/unoplat-code-confluence" target="_blank">unoplat-code-confluence</a>,
+      I'm passionate about creating tools that improve developer workflows. This project represents my commitment to
+      open-source development and building solutions that make a difference in the developer community.
+
+      My expertise spans modern web development, cloud infrastructure, and DevOps practices. I specialize in
+      architecting full-stack applications that are not just functional, but production-ready from day one.
+      This includes implementing CI/CD pipelines, containerization, infrastructure as code, and monitoring solutions.
+
+      Currently, I'm expanding into **LLM engineering**, exploring the fascinating intersection of traditional
+      software development and artificial intelligence. My focus areas include retrieval-augmented generation (RAG),
+      fine-tuning techniques, and developing autonomous agents that can solve complex problems.
+    skills:
+      enable: true
+      title: "Technologies & Skills:"
+      items:
+        - "React & TypeScript"
+        - "Python & Bun"
+        - "Design Systems & UX"
+        - "Backend Engineering"
+        - "Docker & Kubernetes"
+        - "Infrastructure as Code"
+        - "Cloud Security"
+        - "CI/CD Pipelines"
+        - "Observability"
+        - "Retrieval-Augmented Generation"
+        - "Fine-tuning Techniques"
+        - "Autonomous Agents"
+        - "Prompt Engineering"
+        - "Vector Databases"
+        - "LLM Integration"
+
+  experience:
+    enable: false
+
+  education:
+    enable: false
+
+  projects:
+    enable: true
+    title: "Featured Projects"
+    items:
+      - title: "Unoplat Code Confluence"
+        content: |
+          A codebase intelligence platform that uses formal grammars and schemas to create reliable,
+          structured context from your code. Unlike brittle heuristics or LLM guesswork, it enables
+          reliable, auditable, and efficient AI workflows built on trustworthy foundational context.
+
+          **Core Values:**
+          - **Precision:** Grammar-based analysis, not regex or LLM guesswork
+          - **Efficiency:** Process large codebases without drowning in noise
+          - **Reliability:** Consistent results you can trust
+          - **Self-hosting:** Your code stays on your infrastructure
+          - **Transparency:** Open Source
+
+          **First AI Use Case:** Auto-updating AGENTS.md per repository that captures sections like
+          Project Structure, Development Workflow, and Business Logic through deterministic code
+          grammar and agents.
+        featured:
+          name: "View Demo"
+          link: https://www.youtube.com/watch?v=fRBV_f9fDKc
+        badges:
+          - "Python"
+          - "Microservice"
+          - "Workflow Orchestration"
+          - "Agents"
+          - "RAG"
+          - "Tree-sitter"
+          - "LLM Engineering"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/unoplat/unoplat-code-confluence
+          - icon: fab fa-youtube
+            url: https://www.youtube.com/@unoplatio-xy6gg
+          - icon: fa fa-globe
+            url: https://docs.unoplat.io
+
+  achievements:
+    enable: false
+
+  contact:
+    enable: true
+    title: "Get In Touch"
+    content: |
+      Interested in code intelligence tooling or want to follow the journey?
+      Reach out on social media or check out the project on GitHub.
+    btnName: "GitHub"
+    btnLink: https://github.com/unoplat/unoplat-code-confluence
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: "Recent Posts"
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/JayGhiya/
+      linkedin: https://www.linkedin.com/in/jay-ghiya/
+      twitter: https://x.com/BeLikeBumblebee
+
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
   giscus:
     endpoint: "https://giscus.app/"
     repo: "JayGhiya/jg"
@@ -45,10 +239,3 @@ params:
     reactions: true
     lazy_loading: true
     lang: "en"
-
-menu:
-  main:
-    - identifier: "blog"
-      name: "Blog"
-      url: "/posts/"
-      weight: 20
