@@ -30,6 +30,7 @@ jobs:
           extended: true  # Recommended for future-proofing, matches local env
 
       - name: Build
+        working-directory: jgsite
         run: hugo --minify
 
       - name: Deploy to Cloudflare Pages
@@ -38,7 +39,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy public --project-name=jay-ghiya
+          command: pages deploy jgsite/public --project-name=jay-ghiya
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Output Deployment URLs
