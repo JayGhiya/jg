@@ -22,7 +22,7 @@ In end of 2024, my former tech lead [Vipin Kumar](https://www.linkedin.com/in/vi
 
 I began with what I knew as a java backend engineer: Java AST for analyzing Java repositories. Simultaneously, I experimented with state-of-the-art assistants like Cursor and Codeium. The more I explored, the clearer it became that comment-only intelligence wouldn't sustain an impactful product. I realized the entire approach needed to be rebuilt from the foundation.
 
-### The Realization
+## The Realization
 
 To build precise, efficient context for large codebases, you need strong code grammar foundations. I upskilled by studying existing projects that leveraged code grammars effectively.
 Deterministic and reliable impact across software engineering tasks requires formal grammars/static code analysis. If solved in the right manner more pain points like dependency graphs , architecture checks etc can be tackled precisely as the approach is foundational and scalable.
@@ -32,7 +32,7 @@ Deterministic and reliable impact across software engineering tasks requires for
 I resigned to start an open-source developer tool: **Unoplat Code Confluence**.
 The plan: first build precise and efficient context for codebases, then enable AI-first use cases on top of that foundation.
 
-### What is Unoplat Code Confluence?
+## What is Unoplat Code Confluence?
 
 [Unoplat Code Confluence](https://github.com/unoplat/unoplat-code-confluence) is a codebase intelligence platform that:
 - Uses formal grammars and schemas rather than brittle heuristics
@@ -49,7 +49,7 @@ The product is built on these core values:
 The first AI usecase it aims to solve is:
 - Keep an auto updating **AGENTS.md** per repository that captures sections such as **Project Structure** , **Development Workflow** , **Business Logic** etc through deterministic code grammar and agents with more sections planned. Here is the alpha demo on [Youtube](https://www.youtube.com/watch?v=fRBV_f9fDKc&list=LL).
 
-### Why It Matters
+## Why It Matters
 
 Onboarding, cross-repo understanding, bugs, launching new features and use cases involving discovery ,code collaboration, maintenance, and enhancement remain painful when agents have to do trial and error based pattern search based on their knowledge and this is worst for non-sota open source models who are good at edits but are not so good at creating a plan of where to edit based on feature/business domain/framework understanding.
 
