@@ -53,7 +53,7 @@ The first AI usecase it aims to solve is:
 
 Onboarding, cross-repo understanding, bugs, launching new features and use cases involving discovery ,code collaboration, maintenance, and enhancement remain painful when agents have to do trial and error based pattern search based on their knowledge and this is worst for non-sota open source models who are good at edits but are not so good at creating a plan of where to edit based on feature/business domain/framework understanding.
 
-We want to keep auto-updating precise Agents.md that gives agents a precise map so they understand your business domain better ,find the right spots thereby making better changes leading to overall better developer experience.
+We want to keep auto-updating Agents.md that gives agents a precise context so they understand your business domain better ,find the right spots thereby making better changes leading to overall better developer experience.
 
 So also as part of [context engineering principles](https://www.llamaindex.ai/blog/context-engineering-what-it-is-and-techniques-to-consider?utm_source=chatgpt.com) it is proven that agents work best when they see only the right code at the right time. Long noisy context hurts retrieval and accuracy.
 
