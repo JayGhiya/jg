@@ -1,0 +1,5 @@
+{{- /* Giscus Comments Integration */ -}}
+{{- /* Reference: https://hugomods.com/docs/comment-engines/giscus/ */ -}}
+{{- if .Site.Params.giscus -}}
+  {{- partial "giscus/script" . -}}
+{{- end -}}

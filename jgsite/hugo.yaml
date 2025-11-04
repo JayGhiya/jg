@@ -33,14 +33,18 @@ params:
       url: "https://x.com/BeLikeBumblebee"
   
   giscus:
+    endpoint: "https://giscus.app/"
     repo: "JayGhiya/jg"
     repo_id: "R_kgDOPn2G0A"
     category: "General"
     category_id: "DIC_kwDOPn2G0M4Cu3eG"
-    mapping: "pathname"
+    mapping: "title"
+    strict_matching: true
     input_position: "bottom"
     theme: "preferred_color_scheme"
     reactions: true
+    lazy_loading: true
+    lang: "en"
 
 menu:
   main:
