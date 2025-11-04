@@ -1,4 +1,6 @@
 github.com/adityatelange/hugo-PaperMod v0.0.0-20250524045829-5a4651783fa9 h1:vSOmKCogP6L4SV2eO7A2zgO7sdml4Ta7tZSd6ccOTmQ=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20250524045829-5a4651783fa9/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20251026154251-1cf53273c3ba h1:tQBhO2phdgzYPJx/ylpkvrpzNGOB+W3bnYVoHgSQubg=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20251026154251-1cf53273c3ba/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
 github.com/hugomods/giscus v0.1.1 h1:Kb8137Cp2nQJPFb6e+CdXy8nyIAJ2dFIymG4bDdaXWI=
 github.com/hugomods/giscus v0.1.1/go.mod h1:tCRkqNi/sMsLh3kjDesXZNzf4R/w+b5oc5boS/l8Jtw=
