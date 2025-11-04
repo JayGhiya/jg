@@ -29,6 +29,10 @@ jobs:
           hugo-version: "0.152.2"
           extended: true # Recommended for future-proofing, matches local env
 
+      - name: Download Hugo Modules
+        working-directory: jgsite
+        run: hugo mod get
+
       - name: Build
         working-directory: jgsite
         run: hugo --minify

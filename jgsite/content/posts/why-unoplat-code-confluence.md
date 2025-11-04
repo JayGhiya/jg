@@ -16,7 +16,7 @@ Seven years in corporate engineering gave me discipline and scale. I do my best 
 
 ## The Spark: July 2024
 
-In July 2024, my former tech lead Vipin Kumar proposed a project: extract insights from codebases by leveraging comments placed above methods and classes—comments written by both humans and code assistants. The goal was simple: ease onboarding for engineers new to a codebase. The problem isn’t new; anyone switching companies, teams, or even services within the same org has felt this friction.
+In July 2024, my former tech lead [Vipin Kumar](https://www.linkedin.com/in/vipinshreyaskumar/) proposed a project: extract insights from codebases by leveraging comments placed above methods and classes—comments written by both humans and code assistants. The goal was simple: ease onboarding for engineers new to a codebase. The problem isn’t new; anyone switching companies, teams, or even services within the same org has felt this friction.
 
 ### Prototypes and Reality Check
 
