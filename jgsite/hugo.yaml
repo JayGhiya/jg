@@ -104,20 +104,18 @@ params:
       title: "Technologies & Skills:"
       items:
         - "React & TypeScript"
-        - "Python & Bun"
+        - "Python"
         - "Design Systems & UX"
         - "Backend Engineering"
         - "Docker & Kubernetes"
-        - "Infrastructure as Code"
-        - "Cloud Security"
         - "CI/CD Pipelines"
         - "Observability"
         - "Retrieval-Augmented Generation"
         - "Fine-tuning Techniques"
         - "Autonomous Agents"
-        - "Prompt Engineering"
         - "Vector Databases"
-        - "LLM Integration"
+        - "Product Engineering"
+        - "Project Management"
 
   experience:
     enable: false
