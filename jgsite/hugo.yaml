@@ -97,21 +97,8 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/profile-photo.jpeg"
     content: |
-      I'm a full-stack engineer and builder.
-
-      As the founder and maintainer of <a href="https://github.com/unoplat/unoplat-code-confluence" target="_blank">unoplat-code-confluence</a>,
-      I'm passionate about creating tools that improve developer workflows. This project represents my commitment to
-      open-source development and building solutions that make a difference in the developer community.
-
-      My expertise spans modern web development, cloud infrastructure, and DevOps practices. I specialize in
-      architecting full-stack applications that are not just functional, but production-ready from day one.
-      This includes implementing CI/CD pipelines, containerization, infrastructure as code, and monitoring solutions.
-
-      Currently, I'm expanding into **LLM engineering**, exploring the fascinating intersection of traditional
-      software development and artificial intelligence. My focus areas include retrieval-augmented generation (RAG),
-      fine-tuning techniques, and developing autonomous agents that can solve complex problems.
+      I'm a full-stack engineer currently learning applied machine learning and deep learning through building <a href="https://github.com/unoplat/unoplat-code-confluence" target="_blank">unoplat-code-confluence</a>, an open-source product. I'm expanding into LLM engineering, working with retrieval-augmented generation (RAG), fine-tuning techniques, and developing autonomous agents that solve complex problems.
     skills:
       enable: true
       title: "Technologies & Skills:"
