@@ -171,8 +171,8 @@ params:
     content: |
       Interested in code intelligence tooling or want to follow the journey?
       Reach out on social media or check out the project on GitHub.
-    btnName: "GitHub"
-    btnLink: https://github.com/unoplat/unoplat-code-confluence
+    btnName: "Email Me"
+    btnLink: mailto:jaynghiya@gmail.com
 
   footer:
     recentPosts:
