@@ -1,4 +1,15 @@
 {{ if .Site.Params.contact.enable | default false }}
+<style>
+#contact .btn-outline {
+    background-color: transparent !important;
+    border-color: var(--primary-color) !important;
+    color: var(--text-color) !important;
+}
+#contact .btn-outline:hover {
+    background-color: var(--secondary-color) !important;
+    opacity: .7;
+}
+</style>
 <section id="contact" class="py-5">
     <div class="container">
         <h3 class="text-center">{{ .Site.Params.contact.title | default "Get in Touch" }}</h3>
