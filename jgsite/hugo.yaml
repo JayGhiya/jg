@@ -98,7 +98,16 @@ params:
     enable: true
     title: "About Me"
     content: |
-      I'm a full-stack engineer currently learning applied machine learning and deep learning through building <a href="https://github.com/unoplat/unoplat-code-confluence" target="_blank">unoplat-code-confluence</a>, an open-source product. I'm expanding into LLM engineering, working with retrieval-augmented generation (RAG), fine-tuning techniques, and developing autonomous agents that solve complex problems.
+      I'm a Full Stack Engineer, AI Consultant, and the Founder & CEO/CTO of Unoplat Technologies — with 8+ years of experience shipping production systems at scale.
+
+      I spent my early career deep in backend and distributed systems at GE Healthcare, building microservices, real-time streaming pipelines, and data platform architecture across Kafka, Kubernetes, and cloud-native stacks. From there, I moved to Intuit as a Senior Software Engineer, sharpening my craft in product engineering.
+
+      Along the way, I expanded into full-stack development and deployment, product design, and Agent Development.
+
+      Today, I'm building <a href="https://github.com/unoplat/unoplat-code-confluence" target="_blank">unoplat-code-confluence</a> — an open-source code intelligence platform that uses formal grammars, structured schemas, and AI to make codebases truly readable for both humans and agents. Think of it as the bridge between raw code and reliable AI workflows — built on precision, not guesswork.
+
+      As a Full Stack AI Consultant, I help teams integrate AI into real engineering and business workflows, while also owning end-to-end product design across frontend and backend. Whether it is designing RAG pipelines, architecting autonomous agent systems, building AI-native design systems, or shipping scalable cloud-native backends, I work across the stack to accelerate product timelines and optimize systems, processes, resources, and infrastructure—with a strong focus on reliability, auditability, and scalability.
+
     skills:
       enable: true
       title: "Technologies & Skills:"
@@ -143,17 +152,30 @@ params:
           **First AI Use Case:** Auto-updating AGENTS.md per repository that captures sections like
           Project Structure, Development Workflow, and Business Logic through deterministic code
           grammar and agents.
+
+          **Second AI Use Case:** Automatic skill recommendation and installation — intelligently
+          suggests and installs relevant agent skills based on your codebase context, so AI
+          workflows are always equipped with the right tools without manual configuration.
         featured:
           name: "View Demo"
           link: https://www.youtube.com/watch?v=fRBV_f9fDKc
         badges:
           - "Python"
-          - "Microservice"
-          - "Workflow Orchestration"
-          - "Agents"
-          - "RAG"
-          - "Tree-sitter"
-          - "LLM Engineering"
+          - "Workflow"
+          - "TypeScript"
+          - "Code Context"
+          - "Code Parsing"
+          - "Dependency Track"
+          - "Code Understanding"
+          - "LLM"
+          - "Gen AI"
+          - "Hallucination Mitigation"
+          - "Agentic Planning"
+          - "Agentic AI"
+          - "Agent Skills"
+          - "Agents MD"
+          - "Precision"
+          - "Reliability"
         links:
           - icon: fab fa-github
             url: https://github.com/unoplat/unoplat-code-confluence
@@ -161,6 +183,8 @@ params:
             url: https://www.youtube.com/@unoplatio-xy6gg
           - icon: fa fa-globe
             url: https://docs.unoplat.io
+          - icon: fab fa-discord
+            url: https://discord.gg/qe2nbQMnWB
 
   achievements:
     enable: false
@@ -169,10 +193,13 @@ params:
     enable: true
     title: "Get In Touch"
     content: |
-      Interested in code intelligence tooling or want to follow the journey?
-      Reach out on social media or check out the project on GitHub.
-    btnName: "Email Me"
-    btnLink: mailto:jaynghiya@gmail.com
+      Interested in contributing to <a href="https://github.com/unoplat/unoplat-code-confluence" target="_blank">unoplat-code-confluence</a>,
+      exploring AI consulting, or just want to connect?
+      Book a free discovery call or drop me an email — I'd love to hear from you.
+    btnName: "Book a Free Discovery Call"
+    btnLink: "https://cal.com/jay-ghiya-fjsry7"
+    btn2Name: "Email Me"
+    btn2Link: "mailto:jaynghiya@gmail.com"
 
   footer:
     recentPosts:

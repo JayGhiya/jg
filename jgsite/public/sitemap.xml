@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blogs/</loc>
+    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/code-intelligence/</loc>
+    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/developer-tools/</loc>
+    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/open-source/</loc>
+    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/startup-journey/</loc>
+    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/startup-journey/</loc>
+    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/why-unoplat-code-confluence/</loc>
+    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
   </url>
 </urlset>

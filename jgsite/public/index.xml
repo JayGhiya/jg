@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JAY GHIYA</title>
+    <title>Jay Ghiya - Software Engineer &amp; Builder</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on JAY GHIYA</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <description>Recent content on Jay Ghiya - Software Engineer &amp; Builder</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 04 Nov 2025 10:33:43 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Unoplat Code Confluence</title>
+      <link>http://localhost:1313/blogs/why-unoplat-code-confluence/</link>
+      <pubDate>Tue, 04 Nov 2025 10:33:43 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/why-unoplat-code-confluence/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&#xA;We are building an open source code intelligence layer after seven years in corporate engineering. The core insight to start the venture was agents/humans waste ton of time rediscovering code and its metadata based on any task at hand. We want to build a precise structured information that keeps context tight and task specific.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-itch&#34;&gt;The Itch&lt;/h2&gt;&#xA;&lt;p&gt;Seven years in corporate engineering gave me discipline and scale. I do my best work when I can own the stack, ship in tight loops, and see impact quickly. To align how I work with what I value, I set out to build open-source developer tooling.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
