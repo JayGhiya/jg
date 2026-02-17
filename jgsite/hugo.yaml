@@ -98,7 +98,17 @@ params:
     enable: true
     title: "About Me"
     content: |
-      I'm a full-stack engineer currently learning applied machine learning and deep learning through building <a href="https://github.com/unoplat/unoplat-code-confluence" target="_blank">unoplat-code-confluence</a>, an open-source product. I'm expanding into LLM engineering, working with retrieval-augmented generation (RAG), fine-tuning techniques, and developing autonomous agents that solve complex problems.
+      I'm a Full Stack Engineer, AI Consultant, and the Founder & CEO/CTO of Unoplat Technologies — with 8+ years of experience shipping production systems at scale.
+      
+      I spent my early career deep in backend and distributed systems at GE Healthcare, building microservices, real-time streaming pipelines, and data platform architecture across Kafka, Kubernetes, and cloud-native stacks. From there, I moved to Intuit as a Senior Software Engineer, sharpening my craft in product engineering at consumer scale.
+      
+      Along the way, I expanded into full-stack development, product design, UI/UX and Agent Development.
+      
+      Today, I'm building <a href="https://github.com/unoplat/unoplat-code-confluence" target="_blank">unoplat-code-confluence</a> — an open-source code intelligence platform that uses formal grammars, structured schemas, and AI to make codebases truly readable for both humans and agents. Think of it as the bridge between raw code and reliable AI workflows — built on precision, not guesswork.
+      
+      As a Full Stack AI Consultant, I help teams integrate AI into real engineering and business workflows, while also owning end-to-end product design across frontend and backend. Whether it is designing RAG pipelines, architecting autonomous agent systems, building AI-native design systems, or shipping scalable cloud-native backends, I work across the stack to accelerate product timelines and optimize systems, processes, resources, and infrastructure—with a strong focus on reliability, auditability, and scalability.
+      
+      
     skills:
       enable: true
       title: "Technologies & Skills:"
