@@ -149,9 +149,9 @@ params:
           - **Self-hosting:** Your code stays on your infrastructure
           - **Transparency:** Open Source
 
-          **First AI Use Case:** Auto-updating AGENTS.md per repository that captures sections like
-          Project Structure, Development Workflow, and Business Logic through deterministic code
-          grammar and agents.
+          **First AI Use Case:** Generating a comprehensive AGENTS.md per repository that captures sections like
+          Development Workflow, Dependencies Guide, and Business Logic through deterministic code
+          grammar and agents, with incremental auto-updating on the roadmap.
 
           **Second AI Use Case:** Automatic skill recommendation and installation — intelligently
           suggests and installs relevant agent skills based on your codebase context, so AI
