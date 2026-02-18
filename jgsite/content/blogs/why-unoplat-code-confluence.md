@@ -47,13 +47,13 @@ The product is built on these core values:
 - **Transparency**:  Open Source
 
 The first AI usecase it aims to solve is:
-- Keep an auto updating **AGENTS.md** per repository that captures sections such as **Project Structure** , **Development Workflow** , **Business Logic** etc through deterministic code grammar and agents with more sections planned. Here is the alpha demo on [Youtube](https://www.youtube.com/watch?v=fRBV_f9fDKc&list=LL).
+- Generate a comprehensive **AGENTS.md** per repository that captures sections such as **Development Workflow** , **Dependencies Guide** , **Business Logic** etc through deterministic code grammar and agents, with incremental auto-updating and more sections on the [roadmap](https://docs.unoplat.io/docs/introduction/roadmap). Here is the alpha demo on [Youtube](https://www.youtube.com/watch?v=fRBV_f9fDKc&list=LL).
 
 ## Why It Matters
 
 Onboarding, cross-repo understanding, bugs, launching new features and use cases involving discovery ,code collaboration, maintenance, and enhancement remain painful when agents have to do trial and error based pattern search based on their knowledge and this is worst for non-sota open source models who are good at edits but are not so good at creating a plan of where to edit based on feature/business domain/framework understanding.
 
-We want to keep auto-updating Agents.md that gives agents a precise context so they understand your business domain better ,find the right spots thereby making better changes leading to overall better developer experience.
+We generate a comprehensive Agents.md that gives agents precise context so they understand your business domain better, find the right spots thereby making better changes leading to overall better developer experience. Incremental auto-updating to keep Agents.md in sync as code evolves is [on the roadmap](https://docs.unoplat.io/docs/introduction/roadmap).
 
 So also as part of [context engineering principles](https://www.llamaindex.ai/blog/context-engineering-what-it-is-and-techniques-to-consider?utm_source=chatgpt.com) it is proven that agents work best when they see only the right code at the right time. Long noisy context hurts retrieval and accuracy.
 
