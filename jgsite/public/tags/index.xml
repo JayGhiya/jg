@@ -6,20 +6,153 @@
     <description>Recent content in Tags on Jay Ghiya - Software Engineer &amp; Builder</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Nov 2025 10:33:43 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 15:55:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Code-Intelligence</title>
-      <link>http://localhost:1313/tags/code-intelligence/</link>
-      <pubDate>Tue, 04 Nov 2025 10:33:43 +0530</pubDate>
-      <guid>http://localhost:1313/tags/code-intelligence/</guid>
+      <title>Agents-Md</title>
+      <link>http://localhost:1313/tags/agents-md/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/agents-md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai-Agents</title>
+      <link>http://localhost:1313/tags/ai-agents/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/ai-agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backlog-Md</title>
+      <link>http://localhost:1313/tags/backlog-md/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/backlog-md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Browser-Automation</title>
+      <link>http://localhost:1313/tags/browser-automation/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/browser-automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude-Code</title>
+      <link>http://localhost:1313/tags/claude-code/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/claude-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>http://localhost:1313/tags/design/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/design/</guid>
       <description></description>
     </item>
     <item>
       <title>Developer-Tools</title>
       <link>http://localhost:1313/tags/developer-tools/</link>
-      <pubDate>Tue, 04 Nov 2025 10:33:43 +0530</pubDate>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
       <guid>http://localhost:1313/tags/developer-tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Developer-Workflow</title>
+      <link>http://localhost:1313/tags/developer-workflow/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/developer-workflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>E2e-Testing</title>
+      <link>http://localhost:1313/tags/e2e-testing/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/e2e-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git-Worktrees</title>
+      <link>http://localhost:1313/tags/git-worktrees/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/git-worktrees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>http://localhost:1313/tags/github/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github-Enterprise</title>
+      <link>http://localhost:1313/tags/github-enterprise/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/github-enterprise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Model-Context-Protocol</title>
+      <link>http://localhost:1313/tags/model-context-protocol/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/model-context-protocol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opencode</title>
+      <link>http://localhost:1313/tags/opencode/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/opencode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Parallel-Agent-Workspaces</title>
+      <link>http://localhost:1313/tags/parallel-agent-workspaces/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/parallel-agent-workspaces/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>http://localhost:1313/tags/productivity/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spec-Driven-Development</title>
+      <link>http://localhost:1313/tags/spec-driven-development/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/spec-driven-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unoplat</title>
+      <link>http://localhost:1313/tags/unoplat/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/unoplat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unoplat-Code-Confluence</title>
+      <link>http://localhost:1313/tags/unoplat-code-confluence/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/unoplat-code-confluence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>User-Flow</title>
+      <link>http://localhost:1313/tags/user-flow/</link>
+      <pubDate>Tue, 17 Feb 2026 15:55:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/user-flow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code-Intelligence</title>
+      <link>http://localhost:1313/tags/code-intelligence/</link>
+      <pubDate>Tue, 04 Nov 2025 10:33:43 +0530</pubDate>
+      <guid>http://localhost:1313/tags/code-intelligence/</guid>
       <description></description>
     </item>
     <item>

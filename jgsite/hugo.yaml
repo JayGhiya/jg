@@ -64,7 +64,7 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: true
+      disableExperience: false
       disableEducation: true
       disableProjects: false
       disableAchievements: true
@@ -127,7 +127,65 @@ params:
         - "Project Management"
 
   experience:
-    enable: false
+    enable: true
+    title: "Experience"
+    items:
+      - company: "Unoplat"
+        companyUrl: "https://www.unoplat.io"
+        jobs:
+          - name: "Founder - CEO/CTO"
+            date: "Sep 2024 - Present"
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: fab fa-github
+                  url: https://github.com/unoplat/unoplat-code-confluence
+                  tooltip: "unoplat-code-confluence"
+                - icon: fa fa-globe
+                  url: https://www.unoplat.io
+                  tooltip: "Unoplat"
+            content: |
+              Building [unoplat-code-confluence](https://github.com/unoplat/unoplat-code-confluence) — an open-source code intelligence platform that uses formal grammars, structured schemas, and AI to make codebases truly readable for both humans and agents.
+
+      - company: "Intuit"
+        companyUrl: "https://www.intuit.com"
+        jobs:
+          - name: "Senior Software Engineer"
+            date: "Sep 2022 - Sep 2024"
+            content: |
+              Worked on the People Platform team, building and scaling real-time ingestion pipelines for core people data.
+
+              - Designed and built real-time ingestion pipelines for the People Platform
+              - Drove architectural improvements and better design patterns across existing services
+              - Championed OpenTelemetry adoption to improve observability across the platform
+              - Established performance testing frameworks and practices for pipeline reliability
+
+      - company: "GE Healthcare"
+        companyUrl: "https://www.gehealthcare.com"
+        jobs:
+          - name: "Senior Software Engineer"
+            date: "Apr 2022 - Sep 2022"
+            content: |
+              Cofounder - Data Platform. Leading Data Fabric vertical responsible for developing platform microservices, real-time streaming and batch applications.
+
+              - Led Data Fabric vertical with microservices, message brokers (Kafka), and real-time applications
+              - Contributed to Data Validation vertical integrating validation stages as part of GitOps
+              - Researched message broker algorithms and operators for Data Infra vertical
+              - Led Data Mesh Integration to 3rd-party components using GitOps
+
+          - name: "Software Engineer"
+            date: "Aug 2019 - Apr 2022"
+            content: |
+              Involved in design, development, testing, and integration of microservices, real-time streaming, and batch applications for Clinical Care Solutions.
+
+          - name: "Edison Engineer (EEDP)"
+            date: "Jul 2017 - Jul 2019"
+            content: |
+              Edison Engineering Development Program — GE's premier early-career leadership program focused on engineering excellence and innovation.
+
+          - name: "Intern"
+            date: "Jul 2016 - Jul 2017"
+            content: |
+              Life Care Solutions / Clinical Care Solutions division.
 
   education:
     enable: false
