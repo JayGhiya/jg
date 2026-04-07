@@ -2,19 +2,85 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/agents-md/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai-agents/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/backlog-md/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/browser-automation/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/code-intelligence/</loc>
-    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
+    <loc>http://localhost:1313/tags/claude-code/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/design/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/developer-workflow/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/developer-tools/</loc>
-    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/developer-workflow/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/e2e-testing/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/git-worktrees/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/github/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/github-enterprise/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/how-i-ship-features-using-ai-agents/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/model-context-protocol/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/opencode/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/parallel-agent-workspaces/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/productivity/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/spec-driven-development/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/unoplat/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/unoplat-code-confluence/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/user-flow/</loc>
+    <lastmod>2026-02-17T15:55:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/code-intelligence/</loc>
     <lastmod>2025-11-04T10:33:43+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/open-source/</loc>
@@ -24,9 +90,6 @@
     <lastmod>2025-11-04T10:33:43+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/startup-journey/</loc>
-    <lastmod>2025-11-04T10:33:43+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-11-04T10:33:43+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/why-unoplat-code-confluence/</loc>
